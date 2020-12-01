@@ -1,0 +1,25 @@
+Question 1
+mylist=[1,2,3,4]
+from module import mylist
+mylist()
+
+Question 2
+import pandas as pd
+Data=[[1,2,3],[4,5,6]]
+res=pd.series(Data)
+print(res)
+
+Question 3
+from ran import rand
+rand()
+import random
+def rand():
+  count=0
+  for count in range(0,100):
+     count=count+1
+     r=random.randint(0,100)
+     print("the random value is:",r)
+     
+Question 4
+import sys
+sys.path
